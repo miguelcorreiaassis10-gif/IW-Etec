@@ -1,0 +1,301 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPnFiqromizKLko9ZYFrLhu",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/miguelcorreiaassis10-gif/IW-Etec/blob/main/18/03%20miguel%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "CTlmqv5SdkfK"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_WwL3zc6cvG6",
+        "outputId": "53f94076-ef51-467f-a196-0edee5a32801"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero: 234\n",
+            "digite um numero: 234\n",
+            "a soma dos numeros 234 e 234 é 468\n",
+            "------------------------------------\n",
+            "a divisao dos numeros 234 e 234 é 1.0\n",
+            "------------------------------------\n",
+            "a subtração dos numeros 234 e 234 é 0\n",
+            "------------------------------------\n",
+            "a multiplicação dos numeros 234 e 234 é 54756\n",
+            "------------------------------------\n",
+            "a divisão inteira dos numeros 234 e 234 é 1\n",
+            "------------------------------------\n",
+            "o resto da divisão dos numeros 234 e 234 é 0\n",
+            "------------------------------------\n",
+            "a potencia dos numeros 234 e 234 é 249178538343859897602905502443311043993439555524386353334919645233978226164374923992664084240228232612531762046271219867904955214558573629332472984206557670667189362730123279184166580532455983805685592477224145886132226970683610096853152635030854871522599874400057925220369575731646992466829871299057657531920433486693162778218525983666154269364606901276372985321897170775515984390535656224834531099082447321597365396891406594511302843688865574199097101098949624120392314116694942946957629250352843442590129284541608525436456495833414399819834252104564736\n",
+            "------------------------------------\n"
+          ]
+        }
+      ],
+      "source": [
+        "# fazer um programa que o usuario digite 2 numeros\n",
+        "# saida mostrar operações aritimeticas\n",
+        "#operadores aritimeticos:\n",
+        "#* = multiplicaçao\n",
+        "\n",
+        "#/ = divisao\n",
+        "\n",
+        "#+ = soma\n",
+        "\n",
+        "#- =subtração\n",
+        "\n",
+        "#== = igual\n",
+        "\n",
+        "#entrada\n",
+        "a = int(input(\"digite um numero: \"))\n",
+        "b = int(input(\"digite um numero: \"))\n",
+        "\n",
+        "#processamento\n",
+        "soma = a + b\n",
+        "multi = a * b\n",
+        "div = a / b\n",
+        "sub = a - b\n",
+        "inte = a // b\n",
+        "rest = a % b\n",
+        "pot = a ** b\n",
+        "#saida\n",
+        "print(f\"a soma dos numeros {a} e {b} é {soma}\")\n",
+        "print(\"------------------------------------\")\n",
+        "print(f\"a divisao dos numeros {a} e {b} é {div}\")\n",
+        "print(\"------------------------------------\")\n",
+        "print(f\"a subtração dos numeros {a} e {b} é {sub}\")\n",
+        "print(\"------------------------------------\")\n",
+        "print(f\"a multiplicação dos numeros {a} e {b} é {multi}\")\n",
+        "print(\"------------------------------------\")\n",
+        "print(f\"a divisão inteira dos numeros {a} e {b} é {inte}\")\n",
+        "print(\"------------------------------------\")\n",
+        "print(f\"o resto da divisão dos numeros {a} e {b} é {rest}\")\n",
+        "print(\"------------------------------------\")\n",
+        "print(f\"a potencia dos numeros {a} e {b} é {pot}\")\n",
+        "print(\"------------------------------------\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "raiz quadrada"
+      ],
+      "metadata": {
+        "id": "3QGWt0jXnTY9"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "r = int(input(\"digite um numero: \"))\n",
+        "raiz = r ** (1/2)\n",
+        "print(f\"a raiz quadrada de {r} é {raiz}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SOKBaY8RnOUF",
+        "outputId": "0924ef4b-024b-4836-f3f0-945815a0f76d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero: 100\n",
+            "a raiz quadrada de 100 é 10.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "horas em minutos e horas em segundos"
+      ],
+      "metadata": {
+        "id": "LC7_zXNInvCN"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "h = int(input(\"digite um horario: \"))\n",
+        "m = h * 60\n",
+        "s = h * 3600\n",
+        "print(f\"em {h} horas tem {m} minutos e {s} segundos\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8d0L9PJCoCeX",
+        "outputId": "1bfdc56f-d84a-4432-b693-76692ea403fb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um horario: 1\n",
+            "em 1 horas tem 60 minutos e 3600 segundos\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "km em metros"
+      ],
+      "metadata": {
+        "id": "8jpiD9bwn0l8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "km = int(input(\"digite uma distancia em km: \"))\n",
+        "m = km * 1000\n",
+        "print(f\"em {km} km tem {m} metros\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "I17kgXzyooWC",
+        "outputId": "e2c9e05f-a82f-4cf6-babc-00f9b4a9f686"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite uma distancia em km: 10\n",
+            "em 10 km tem 10000 metros\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "milhas em km"
+      ],
+      "metadata": {
+        "id": "WnG0sTStn4GL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "milhas = int(input(\"digite uma distancia em milhas: \"))\n",
+        "km = milhas * 1.6093\n",
+        "print(f\"em {milhas} milhas tem {km} km\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-DYW0OXinrZ_",
+        "outputId": "e9f82ef4-c02d-4c94-d55e-eea457033301"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite uma distancia em milhas: 100\n",
+            "em 100 milhas tem 160.93 km\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "-------------------------- adicionais -----------------------------"
+      ],
+      "metadata": {
+        "id": "rwkeSWOginJg"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# @title\n",
+        "a = int(input(\"digite um numero: \"))\n",
+        "b = int(input(\"digite um numero: \"))\n",
+        "q = str(input(\"qual função voce quer usar? (use somente mult,soma,sub e div) \"))\n",
+        "if q == \"soma\":\n",
+        "  print(a + b)\n",
+        "elif q == \"sub\":\n",
+        "  print(a - b)\n",
+        "elif q == \"mult\":\n",
+        "  print(a * b)\n",
+        "elif q == \"div\":\n",
+        "  print(a / b)"
+      ],
+      "metadata": {
+        "id": "l0WbB2uKipBZ",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "592d3810-c3df-46b6-90ba-3d97c1af6db3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero: 1256\n",
+            "digite um numero: 4321\n",
+            "qual função voce quer usar? (use somente mult,soma,sub e div) soma\n",
+            "5577\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
