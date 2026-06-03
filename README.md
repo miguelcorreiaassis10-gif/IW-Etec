@@ -1,2 +1,2 @@
-# IW-Etec
-aulas de IW 2026
+# PA-Etec
+aulas de PA 2026
